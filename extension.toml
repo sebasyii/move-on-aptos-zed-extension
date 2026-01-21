@@ -1,0 +1,15 @@
+id = "move-language"
+name = "Move"
+version = "0.1.0"
+schema_version = 1
+authors = ["Sebastian Yii <sebas.yxh@gmail.com>"]
+description = "Move language support for Aptos blockchain development"
+repository = "https://github.com/sebasyii/zed-move-extension"
+
+[grammars.move_on_aptos]
+repository = "https://github.com/aptos-labs/tree-sitter-move-on-aptos"
+commit = "main"
+
+[language_servers.aptos-language-server]
+name = "Aptos Language Server"
+language = "Move"

@@ -1,0 +1,18 @@
+# Zed extension artifacts
+*.tar.gz
+*.zip
+
+# macOS
+.DS_Store
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# Build artifacts
+target/
+
+target/
+grammars
+*.wasm
